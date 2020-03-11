@@ -170,9 +170,6 @@ ctrl + alt - d : yabai -m space --layout float
 alt + cmd - t : kitty --single-instance -d ~ --execute htop && \
                   yabai -m window --space 10; yabai -m space --focus 10
 
-cmd - p :         kitty --single-instance -d ~ --execute ranger && \
-                  yabai -m window --space 6; yabai -m space --focus 6
-
 cmd - b :         ./Applications/Firefox.app/Contents/MacOS/firefox && \
                   yabai -m window --space 2; yabai -m space --focus 2
 
