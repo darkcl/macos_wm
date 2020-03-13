@@ -167,8 +167,6 @@ ctrl + alt - a : yabai -m space --layout bsp
 ctrl + alt - d : yabai -m space --layout float
 
 # custom quick launch
-alt + cmd - t : kitty --single-instance -d ~ --execute htop && \
-                  yabai -m window --space 10; yabai -m space --focus 10
 
 cmd - b :         ./Applications/Firefox.app/Contents/MacOS/firefox && \
                   yabai -m window --space 2; yabai -m space --focus 2
