@@ -1,5 +1,7 @@
 # MacOS WM
 
+Fork from https://github.com/enkhee-Osiris/macos_wm
+
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 
 **Table of Contents**
@@ -26,12 +28,20 @@
 - [ranger](https://github.com/ranger/ranger) **Available in brew** (Optional)
 - [ifstat](http://macappstore.org/ifstat/) **For Übersicht widget**
 
+## Fonts
+
+- [Cascadia Code](https://github.com/microsoft/cascadia-code)
+
+## VSCode Plugins
+
+- [Vibrancy](https://github.com/EYHN/vscode-vibrancy)
+
 ### Setup
 
 Clone into Ubersicht widgets.
 
 ```sh
-git clone https://github.com/enkhee-Osiris/macos_wm.git "$HOME/Library/Application Support/Übersicht/widgets/osiris"
+git clone https://github.com/darkcl/macos_wm.git "$HOME/Library/Application Support/Übersicht/widgets/osiris"
 ```
 
 Create symlinks.
