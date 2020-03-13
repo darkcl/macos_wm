@@ -25,7 +25,7 @@ yabai -m config window_border_width          2
 yabai -m config active_window_border_color   0xff775759
 yabai -m config normal_window_border_color   0xff505050
 yabai -m config insert_window_border_color   0xffd75f5f
-yabai -m config active_window_opacity        0.90
+yabai -m config active_window_opacity        1.00
 yabai -m config normal_window_opacity        0.70
 yabai -m config split_ratio                  0.50
 yabai -m config auto_balance                 off
@@ -46,6 +46,7 @@ yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add app="^Telegram$" manage=off
 yabai -m rule --add app="^Spotify$" manage=off
 yabai -m rule --add app="^Simulator$" manage=off
+yabai -m rule --add app="^IINA$" manage=off
 yabai -m rule --add app="^Firefox$" title="^Opening .*$" manage=off
 
 # show digital colour meter topmost and on all spaces
