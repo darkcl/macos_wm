@@ -38,19 +38,19 @@ Fork from https://github.com/enkhee-Osiris/macos_wm
 
 ### Setup
 
-Clone into Ubersicht widgets.
-
 ```sh
-git clone https://github.com/darkcl/macos_wm.git "$HOME/Library/Application Support/Übersicht/widgets/osiris"
+git clone https://github.com/darkcl/macos_wm.git "$HOME/macos_wm"
 ```
 
 Create symlinks.
 
 ```sh
- ln -s "${HOME}/Library/Application Support/Übersicht/widgets/osiris/.yabairc" "${HOME}/.yabairc"
- ln -s "${HOME}/Library/Application Support/Übersicht/widgets/osiris/.skhdrc" "${HOME}/.skhdrc"
- ln -s "${HOME}/Library/Application Support/Übersicht/widgets/osiris/kitty" "${HOME}/.config/kitty"
+ ln -s "${HOME}/macos_wm/.yabairc" "${HOME}/.yabairc"
+ ln -s "${HOME}/macos_wm/.skhdrc" "${HOME}/.skhdrc"
+ ln -s "${HOME}/macos_wm/kitty" "${HOME}/.config/kitty"
 ```
+
+Copy pecan-style into pecan folder
 
 You will be need spotify oAuth token for [web
 api](https://developer.spotify.com/documentation/web-api/reference/tracks/get-track/).  
