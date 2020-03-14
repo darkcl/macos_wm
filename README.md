@@ -24,6 +24,7 @@ Fork from https://github.com/enkhee-Osiris/macos_wm
 - [skhd](https://github.com/koekeishiya/skhd#install)
 - [jq](https://stedolan.github.io/jq/download/)
 - [ubersicht](https://github.com/felixhageloh/uebersicht)
+  - [pecan](https://github.com/zzzeyez/pecan)
 - [neofetch](https://github.com/dylanaraps/neofetch/wiki/Installation#macos-homebrew) (Optional)
 - [ranger](https://github.com/ranger/ranger) **Available in brew** (Optional)
 - [ifstat](http://macappstore.org/ifstat/) **For Übersicht widget**
