@@ -1,7 +1,7 @@
 # vim:fileencoding=utf-8:ft=conf
 # open terminal
 cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
-alt - return : code
+alt - return : code -n
 
 # Tips
 shift + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
